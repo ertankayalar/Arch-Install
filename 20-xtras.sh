@@ -11,3 +11,5 @@ yay -S --noconfirm --neded \
   pinta xournalpp \
   zoom \
   localsend
+
+echo "Installation completed successfully!"

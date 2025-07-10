@@ -10,6 +10,16 @@ yay -S --noconfirm --needed \
 #  imagemagick \
 #
 
+#!/bin/sh
+# Add mise activate to fish config
+
+mkdir -p "$HOME/.config/fish"
+line='mise activate fish | source'
+
+if ! grep -Fxq "$line" "$HOME/.config/fish/config.fish" 2>/dev/null; then
+  echo "$line" >>"$HOME/.config/fish/config.fish"
+fi
+
 # Install Ruby using gcc-14 for compatibility
 yay -S --noconfirm --needed gcc14
 mise settings set ruby.ruby_build_opts "CC=gcc-14 CXX=g++-14"
@@ -28,10 +38,14 @@ if ! command -v nvim &>/dev/null; then
   # echo "vim.opt.relativenumber = false" >>~/.config/nvim/lua/config/options.lua
 fi
 
-sudo pacman -S --noconfirm \
-  nodejs \
-  npm \
-  hugo \
-  ruby
+mise install nodejs@latest
+mise install npm@latest
+mise install hugo@latest
+mise install ruby@latest
+
+mise use nodejs@latest
+mise use npm@latest
+mise use hugo@latest
+mise use ruby@latest
 
 yay -S visual-studio-code-bin
