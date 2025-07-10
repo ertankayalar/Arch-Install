@@ -1,3 +1,7 @@
+# CachyOS Development Setup
+
+Arch & CachyOS development scripts.
+
 ## Required Apps
 
 yay
@@ -32,4 +36,3 @@ Inkscape
 - [ ] wifi
 - [ ] kodlama
 - [ ]
-
