@@ -1,5 +1,5 @@
 echo "Installing Xtras AUR packages..."
-yay -S --noconfirm --neded \
+yay -S --noconfirm --needed \
   spotify \
   signal-desktop \
   google-chrome \
