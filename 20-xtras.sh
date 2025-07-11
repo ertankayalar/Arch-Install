@@ -3,7 +3,7 @@ yay -S --noconfirm --needed \
   spotify \
   signal-desktop \
   brave-bin \
-  google-chrome \
+  chromium \
   anydesk-bin \
   dropbox-cli \
   obsidian-bin typora libreoffice obs-studio kdenlive \
