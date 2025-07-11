@@ -36,3 +36,7 @@ mise use nodejs@latest
 mise use npm@latest
 mise use hugo@latest
 mise use ruby@latest
+
+# fish completions for cashyos
+# mise completions bash >~/.config/bash_completion.d/mise.sh
+mise completions fish >~/.config/fish/completions/mise.fish

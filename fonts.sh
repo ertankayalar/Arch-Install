@@ -1,5 +1,5 @@
 #
-# Fonts
+# Nerd Fonts
 #
 mkdir -p ~/.local/share/fonts
 
