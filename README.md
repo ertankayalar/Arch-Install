@@ -1,4 +1,4 @@
-# CachyOS Development Setup
+#  Arch (Omarchy) & CachyOS Development Setup
 
 Arch & CachyOS development scripts.
 
